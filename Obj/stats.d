@@ -1,0 +1,15 @@
+.\obj\stats.o: 2.1.2\lwip\src\core\stats.c
+.\obj\stats.o: .\2.1.2\lwip\src\include\lwip/opt.h
+.\obj\stats.o: .\Application\lwipopts.h
+.\obj\stats.o: .\2.1.2\lwip\src\include\lwip/debug.h
+.\obj\stats.o: .\2.1.2\lwip\src\include\lwip/arch.h
+.\obj\stats.o: .\2.1.2\ports\1986BE1\arch/cc.h
+.\obj\stats.o: .\2.1.2\ports\1986BE1\arch/cpu.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\obj\stats.o: .\2.1.2\lwip\src\include\lwip/opt.h

@@ -1,0 +1,1508 @@
+Dependencies for Project 'MyProject', Target 'MyProject': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_rst_clk.o --omf_browse .\obj\mdr32f9qx_rst_clk.crf --depend .\obj\mdr32f9qx_rst_clk.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eeprom.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_eeprom.o --omf_browse .\obj\mdr32f9qx_eeprom.crf --depend .\obj\mdr32f9qx_eeprom.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eeprom.h)(0x542BE8B4)
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_port.o --omf_browse .\obj\mdr32f9qx_port.crf --depend .\obj\mdr32f9qx_port.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_timer.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_timer.o --omf_browse .\obj\mdr32f9qx_timer.crf --depend .\obj\mdr32f9qx_timer.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_iwdg.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_iwdg.o --omf_browse .\obj\mdr32f9qx_iwdg.crf --depend .\obj\mdr32f9qx_iwdg.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BE8B4)
+F (.\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_uart.c)(0x542BE8B4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_uart.o --omf_browse .\obj\mdr32f9qx_uart.crf --depend .\obj\mdr32f9qx_uart.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+F (.\Application\MDR32F9Qx_config.h)(0x623300B8)()
+F (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)()
+F (.\Application\MDR1986VE1T_IT.h)(0x51D56FD8)()
+F (.\Application\MDR1986VE1T_IT.c)(0x5F15A966)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr1986ve1t_it.o --omf_browse .\obj\mdr1986ve1t_it.crf --depend .\obj\mdr1986ve1t_it.d)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (Application\MDR1986VE1T_IT.h)(0x51D56FD8)
+F (.\Application\Main.c)(0x6267C991)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eeprom.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (Application\MDR32F9Qx_eth.h)(0x623F4DB8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (Application\Application.h)(0x623C0E12)
+I (Application\HW_Profile.h)(0x625E6162)
+I (Application\BiLED.h)(0x6148BE3E)
+I (Application\XTick.h)(0x625E5AF3)
+I (Application\PPS.h)(0x625E5CD5)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x602569CC)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x602569C8)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip\apps/httpd.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip\apps/httpd_opts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (.\Application\netconf.h)(0x56B44FD0)
+I (.\2.1.2\ports\1986BE1\Standalone\ethernetif.h)(0x624C2E7E)
+I (.\Application\main.h)(0x624C209D)
+I (.\Application\eeprom_new.h)(0x6260F301)
+F (.\Application\Application.h)(0x623C0E12)()
+F (.\Application\HW_Profile.h)(0x625E6162)()
+F (.\Application\BiLED.h)(0x6148BE3E)()
+F (.\Application\BiLED.c)(0x614DE282)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\biled.o --omf_browse .\obj\biled.crf --depend .\obj\biled.d)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (Application\BiLED.h)(0x6148BE3E)
+F (.\Application\XTick.c)(0x625E5AF3)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\xtick.o --omf_browse .\obj\xtick.crf --depend .\obj\xtick.d)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (Application\XTick.h)(0x625E5AF3)
+I (Application\HW_Profile.h)(0x625E6162)
+F (.\Application\XTick.h)(0x625E5AF3)()
+F (.\Application\retarget.c)(0x62332E8E)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+F (.\Application\net.c)(0x62663EC4)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\net.o --omf_browse .\obj\net.crf --depend .\obj\net.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\netif/etharp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\netif/loopif.h)(0x51381CC0)
+I (.\2.1.2\ports\1986BE1\Standalone\ethernetif.h)(0x624C2E7E)
+I (.\Application\main.h)(0x624C209D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x602569CC)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x602569C8)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_eth.h)(0x623F4DB8)
+I (Application\netconf.h)(0x56B44FD0)
+F (.\Application\net.h)(0x624C1995)()
+F (.\Application\netconf.c)(0x62668BFE)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\netconf.o --omf_browse .\obj\netconf.crf --depend .\obj\netconf.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\netif/etharp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\netif/loopif.h)(0x51381CC0)
+I (.\2.1.2\ports\1986BE1\Standalone\ethernetif.h)(0x624C2E7E)
+I (.\Application\main.h)(0x624C209D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x602569CC)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x602569C8)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_eth.h)(0x623F4DB8)
+I (Application\netconf.h)(0x56B44FD0)
+F (.\Application\netconf.h)(0x56B44FD0)()
+F (.\Application\PPS.c)(0x625E744D)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\pps.o --omf_browse .\obj\pps.crf --depend .\obj\pps.d)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Application\PPS.h)(0x625E5CD5)
+I (.\Application\HW_Profile.h)(0x625E6162)
+F (.\Application\PPS.h)(0x625E5CD5)()
+F (.\Application\eeprom_new.c)(0x626133A9)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\eeprom_new.o --omf_browse .\obj\eeprom_new.crf --depend .\obj\eeprom_new.d)
+I (Application\eeprom_new.h)(0x6260F301)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (Application\MDR32F9Qx_config.h)(0x623300B8)
+I (Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Application\XTick.h)(0x625E5AF3)
+I (.\Application\HW_Profile.h)(0x625E6162)
+I (.\Application\BiLED.h)(0x6148BE3E)
+F (.\Application\eeprom_new.h)(0x6260F301)()
+F (.\2.1.2\lwip\src\core\altcp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\altcp.o --omf_browse .\obj\altcp.crf --depend .\obj\altcp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\altcp_alloc.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\altcp_alloc.o --omf_browse .\obj\altcp_alloc.crf --depend .\obj\altcp_alloc.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\altcp_tcp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\altcp_tcp.o --omf_browse .\obj\altcp_tcp.crf --depend .\obj\altcp_tcp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\def.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\def.o --omf_browse .\obj\def.crf --depend .\obj\def.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\dns.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\dns.o --omf_browse .\obj\dns.crf --depend .\obj\dns.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\inet_chksum.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\inet_chksum.o --omf_browse .\obj\inet_chksum.crf --depend .\obj\inet_chksum.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\init.c)(0x62668BD0)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\init.o --omf_browse .\obj\init.crf --depend .\obj\init.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/init.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sockets.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/raw.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/igmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dns.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/timeouts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/nd6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mld6.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/api.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ppp/ppp_opts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ppp/ppp_impl.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\core\ip.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ip.o --omf_browse .\obj\ip.crf --depend .\obj\ip.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\core\mem.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mem.o --omf_browse .\obj\mem.crf --depend .\obj\mem.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\memp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\memp.o --omf_browse .\obj\memp.crf --depend .\obj\memp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/raw.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/altcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_frag.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/netbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/api.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcpip_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/api_msg.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/igmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/sockets_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/timeouts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ppp/ppp_opts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netdb.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dns.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/nd6_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_frag.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mld6.h)(0x5A86C758)
+F (.\2.1.2\lwip\src\core\netif.c)(0x62667F75)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\netif.o --omf_browse .\obj\netif.crf --depend .\obj\netif.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/raw_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/snmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/igmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\core\pbuf.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\pbuf.o --omf_browse .\obj\pbuf.crf --depend .\obj\pbuf.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\raw.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\raw.o --omf_browse .\obj\raw.crf --depend .\obj\raw.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\stats.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\stats.o --omf_browse .\obj\stats.crf --depend .\obj\stats.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\sys.c)(0x62665821)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\Application\XTick.h)(0x625E5AF3)
+I (.\Application\HW_Profile.h)(0x625E6162)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+F (.\2.1.2\lwip\src\core\tcp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\tcp.o --omf_browse .\obj\tcp.crf --depend .\obj\tcp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/nd6.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\tcp_in.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\tcp_in.o --omf_browse .\obj\tcp_in.crf --depend .\obj\tcp_in.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/nd6.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\tcp_out.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\tcp_out.o --omf_browse .\obj\tcp_out.crf --depend .\obj\tcp_out.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\timeouts.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\timeouts.o --omf_browse .\obj\timeouts.crf --depend .\obj\timeouts.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/timeouts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcpip_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_frag.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/autoip.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/igmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dns.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/nd6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_frag.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mld6.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dhcp6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\core\udp.c)(0x62665C33)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\udp.o --omf_browse .\obj\udp.crf --depend .\obj\udp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/icmp6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp6.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/snmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\ipv4\autoip.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\autoip.o --omf_browse .\obj\autoip.crf --depend .\obj\autoip.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\ipv4\dhcp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\dhcp.o --omf_browse .\obj\dhcp.crf --depend .\obj\dhcp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/autoip.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dns.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\ipv4\etharp.c)(0x62665520)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\etharp.o --omf_browse .\obj\etharp.crf --depend .\obj\etharp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/snmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/dhcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/autoip.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\ipv4\icmp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\icmp.o --omf_browse .\obj\icmp.crf --depend .\obj\icmp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\ipv4\igmp.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\igmp.o --omf_browse .\obj\igmp.crf --depend .\obj\igmp.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\core\ipv4\ip4.c)(0x62667A47)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ip4.o --omf_browse .\obj\ip4.crf --depend .\obj\ip4.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_frag.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/igmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/raw_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/udp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/udp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/priv/tcp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/autoip.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\core\ipv4\ip4_addr.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ip4_addr.o --omf_browse .\obj\ip4_addr.crf --depend .\obj\ip4_addr.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\core\ipv4\ip4_frag.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ip4_frag.o --omf_browse .\obj\ip4_frag.crf --depend .\obj\ip4_frag.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/ip4_frag.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/inet_chksum.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\ports\1986BE1\Standalone\ethernetif.c)(0x6266634F)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ethernetif.o --omf_browse .\obj\ethernetif.crf --depend .\obj\ethernetif.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/sys.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/etharp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (.\Application\eeprom_new.h)(0x6260F301)
+I (2.1.2\ports\1986BE1\Standalone\ethernetif.h)(0x624C2E7E)
+I (.\Application\main.h)(0x624C209D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x602569CC)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x602569C8)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_iwdg.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_eth.h)(0x623F4DB8)
+F (.\2.1.2\ports\1986BE1\Standalone\ethernetif.h)(0x624C2E7E)()
+F (.\2.1.2\lwip\src\netif\ethernet.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\ethernet.o --omf_browse .\obj\ethernet.crf --depend .\obj\ethernet.d)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\netif/ethernet.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ethernet.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ieee.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/etharp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/snmp.h)(0x5A86C758)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (.\2.1.2\lwip\src\include\netif/ppp/ppp_opts.h)(0x5DE60376)
+F (.\2.1.2\lwip\src\apps\http\altcp_proxyconnect.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\altcp_proxyconnect.o --omf_browse .\obj\altcp_proxyconnect.crf --depend .\obj\altcp_proxyconnect.d)
+I (.\2.1.2\lwip\src\include\lwip/apps/altcp_proxyconnect.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+F (.\2.1.2\lwip\src\apps\http\fsdata.h)(0x5DE60376)()
+F (.\2.1.2\lwip\src\apps\http\http_client.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\http_client.o --omf_browse .\obj\http_client.crf --depend .\obj\http_client.d)
+I (.\2.1.2\lwip\src\include\lwip/apps/http_client.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/altcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/altcp_tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/dns.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/altcp_tls.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/init.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\apps\http\httpd.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\httpd.o --omf_browse .\obj\httpd.crf --depend .\obj\httpd.d)
+I (.\2.1.2\lwip\src\include\lwip/init.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/apps/httpd.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/apps/httpd_opts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/pbuf.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/stats.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/mem.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/memp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_std.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/memp_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/priv/mem_priv.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/apps/fs.h)(0x62668450)
+I (2.1.2\lwip\src\apps\http\httpd_structs.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/altcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcp.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/tcpbase.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6_addr.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/netif.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip4.h)(0x62667CA2)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip4.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/ip6.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/prot/ip.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/prot/icmp.h)(0x5A86C758)
+I (.\2.1.2\lwip\src\include\lwip/altcp_tcp.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+F (.\2.1.2\lwip\src\apps\http\httpd_structs.h)(0x5DE60376)()
+F (.\2.1.2\lwip\src\apps\http\fs.c)(0x5DE60376)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\fs.o --omf_browse .\obj\fs.crf --depend .\obj\fs.d)
+I (.\2.1.2\lwip\src\include\lwip/apps/httpd_opts.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/opt.h)(0x62666304)
+I (.\Application\lwipopts.h)(0x62668B5E)
+I (.\2.1.2\lwip\src\include\lwip/debug.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/arch.h)(0x5DE60376)
+I (.\2.1.2\ports\1986BE1\arch/cc.h)(0x62663D6E)
+I (.\2.1.2\ports\1986BE1\arch/cpu.h)(0x51381CC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x602569C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x602569C6)
+I (.\2.1.2\lwip\src\include\lwip/prot/iana.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/def.h)(0x5DE60376)
+I (.\2.1.2\lwip\src\include\lwip/apps/fs.h)(0x62668450)
+I (.\2.1.2\lwip\src\include\lwip/err.h)(0x5DE60376)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (2.1.2\lwip\src\apps\http\fsdata.c)(0x6267CC0C)
+I (2.1.2\lwip\src\apps\http\fsdata.h)(0x5DE60376)
+F (RTE\Device\MDR1986BE1T\startup_MDR1986VE1T.s)(0x559E835E)(--cpu Cortex-M1 -g --apcs=interwork -I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "USE_MDR1986VE1T SETA 1" --pd "_RTE_ SETA 1"-o .\obj\startup_mdr1986ve1t_1.o --depend .\obj\startup_mdr1986ve1t_1.d)
+F (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.c)(0x559E835E)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\system_mdr1986ve1t_1.o --omf_browse .\obj\system_mdr1986ve1t_1.crf --depend .\obj\system_mdr1986ve1t_1.d)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+F (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.h)(0x559E835E)()
+F (C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_dma.c)(0x559E835C)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_dma.o --omf_browse .\obj\mdr32f9qx_dma.crf --depend .\obj\mdr32f9qx_dma.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h)(0x542BE8B4)
+F (C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c)(0x559E835C)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_eth_1.o --omf_browse .\obj\mdr32f9qx_eth_1.crf --depend .\obj\mdr32f9qx_eth_1.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h)(0x542BE8B4)
+I (.\Application\MDR32F9Qx_eth.h)(0x623F4DB8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x602569C8)
+F (C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_ssp.c)(0x559E835C)(-c --cpu Cortex-M1 -g -O0 -Otime --apcs=interwork -I .\Application -I .\Libraries\CMSIS\CM1\CoreSupport -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I .\Config -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Libraries\PT -I .\Libraries\RTT -I .\2.1.2\lwip\src\include\lwip -I .\2.1.2\lwip\src\include -I .\2.1.2\ports\1986BE1\ -I .\2.1.2\ports\1986BE1\Standalone -I .\2.1.2\ports\1986BE1\arch -I .\2.1.2\lwip\src\include\netif -I .\2.1.2\lwip\src\apps\http -I .\2.1.2\lwip\src\apps\http\fs -I .\2.1.2\lwip\src\apps\http -I \ --diag_suppress=47-I.\RTE\Device\MDR1986BE1T-I.\RTE\_MyProject-IC:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport-IC:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-IC:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-D__UVISION_VERSION="536" -D_RTE_ -DUSE_MDR1986VE1T -D_RTE_-o .\obj\mdr32f9qx_ssp.o --omf_browse .\obj\mdr32f9qx_ssp.crf --depend .\obj\mdr32f9qx_ssp.d)
+I (.\Application\MDR32F9Qx_config.h)(0x623300B8)
+I (.\Application\MDR32F9Qx_board.h)(0x5295EB5E)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x542BE8B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x542BDC7E)
+I (.\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_ssp.h)(0x542BE8B4)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x542BE8B4)

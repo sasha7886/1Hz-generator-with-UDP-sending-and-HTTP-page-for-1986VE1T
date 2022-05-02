@@ -1,0 +1,15 @@
+.\obj\altcp.o: 2.1.2\lwip\src\core\altcp.c
+.\obj\altcp.o: .\2.1.2\lwip\src\include\lwip/opt.h
+.\obj\altcp.o: .\Application\lwipopts.h
+.\obj\altcp.o: .\2.1.2\lwip\src\include\lwip/debug.h
+.\obj\altcp.o: .\2.1.2\lwip\src\include\lwip/arch.h
+.\obj\altcp.o: .\2.1.2\ports\1986BE1\arch/cc.h
+.\obj\altcp.o: .\2.1.2\ports\1986BE1\arch/cpu.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\altcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\obj\altcp.o: .\2.1.2\lwip\src\include\lwip/opt.h

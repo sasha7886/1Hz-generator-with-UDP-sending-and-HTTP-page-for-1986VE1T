@@ -1,0 +1,321 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alex Alex, 322, LIC=MGXG8-38UDG-79EG1-C8RK2-D1AVA-GAPDP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Alex\Desktop\Часпром работа\Имитатор исправленный lwip 2.1.2\Заготовка проекта для 1986ВЕ1Т\MyProject.uvprojx
+Project File Date:  04/26/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MyProject'
+Note: source file 'RTE\Device\MDR1986BE1T\startup_MDR1986VE1T.s' - object file renamed from '.\Obj\startup_MDR1986VE1T.o' to '.\Obj\startup_mdr1986ve1t_1.o'.
+Note: source file 'RTE\Device\MDR1986BE1T\system_MDR1986VE1T.c' - object file renamed from '.\Obj\system_MDR1986VE1T.o' to '.\Obj\system_mdr1986ve1t_1.o'.
+Note: source file 'C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c' - object file renamed from '.\Obj\MDR32F9Qx_eth.o' to '.\Obj\mdr32f9qx_eth_1.o'.
+compiling MDR32F9Qx_uart.c...
+compiling MDR32F9Qx_iwdg.c...
+compiling MDR1986VE1T_IT.c...
+compiling MDR32F9Qx_port.c...
+compiling MDR32F9Qx_eeprom.c...
+compiling MDR32F9Qx_rst_clk.c...
+compiling MDR32F9Qx_timer.c...
+compiling retarget.c...
+compiling BiLED.c...
+compiling XTick.c...
+compiling PPS.c...
+compiling altcp.c...
+compiling eeprom_new.c...
+Application\eeprom_new.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+Application\eeprom_new.c(39): warning:  #940-D: missing return statement at end of non-void function "eeprom_new_init" 
+  }
+Application\eeprom_new.c(48): warning:  #174-D: expression has no effect
+  		__NOP;
+Application\eeprom_new.c(60): warning:  #223-D: function "printf" declared implicitly
+  			printf("1");
+Application\eeprom_new.c(65): warning:  #223-D: function "printf" declared implicitly
+  			printf("0");
+Application\eeprom_new.c(93): warning:  #223-D: function "printf" declared implicitly
+  			printf ("1");
+Application\eeprom_new.c(101): warning:  #223-D: function "printf" declared implicitly
+  			printf ("0");
+Application\eeprom_new.c(123): warning:  #223-D: function "printf" declared implicitly
+  	printf ("buffer cleaned\n");
+Application\eeprom_new.c(113): warning:  #550-D: variable "buffer"  was set but never used
+  	uint8_t buffer [8];
+Application\eeprom_new.c(114): warning:  #550-D: variable "addres"  was set but never used
+  	uint8_t addres   [8];
+Application\eeprom_new.c(116): warning:  #177-D: variable "time"  was declared but never referenced
+  	uint32_t time;
+Application\eeprom_new.c(141): warning:  #223-D: function "printf" declared implicitly
+  	printf ("eeprom read start\n");
+Application\eeprom_new.c(150): warning:  #223-D: function "memcmp" declared implicitly
+  	if ( memcmp(&eui[0], &BAD_EUII[0], 6) != 0 && memcmp(&eui[0], &BAD_EUII[1], 6) != 0	) {
+Application\eeprom_new.c(155): warning:  #192-D: unrecognized character escape sequence
+  		printf("\nMAC error\N");
+Application\eeprom_new.c(163): warning:  #1-D: last line of file ends without a newline
+  }
+Application\eeprom_new.c: 15 warnings, 0 errors
+compiling altcp_alloc.c...
+compiling net.c...
+compiling altcp_tcp.c...
+compiling Main.c...
+.\Application\eeprom_new.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+Application\Main.c(38): warning:  #21-D: type qualifiers are meaningless in this declaration
+  volatile struct ATTRIBUTES
+Application\Main.c(43): warning:  #21-D: type qualifiers are meaningless in this declaration
+  volatile struct TIME
+Application\Main.c(119): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  printf ("Netif parameter ip_addr   0x%"X32_F"\n", netif->ip_addr);
+Application\Main.c(122): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  printf ("Netif parameter netmask   0x%"X32_F"\n", netif->netmask);
+Application\Main.c(123): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  printf ("UDP parameter local_ip    0x%"X32_F"\n", UDPSock->local_ip);
+Application\Main.c(125): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  printf ("UDP parameter remote_ip   0x%"X32_F"\n", UDPSock->remote_ip);
+Application\Main.c(654): warning:  #167-D: argument of type "volatile struct TIME *" is incompatible with parameter of type "struct TIME *"
+  		Time_counting(&Datagram.msk);
+Application\Main.c(655): warning:  #167-D: argument of type "volatile struct TIME *" is incompatible with parameter of type "struct TIME *"
+  		Time_counting(&Datagram.local);
+Application\Main.c: 9 warnings, 0 errors
+compiling netconf.c...
+Application\netconf.c(124): warning:  #223-D: function "tcp_tmr" declared implicitly
+      tcp_tmr();
+Application\netconf.c: 1 warning, 0 errors
+compiling def.c...
+compiling dns.c...
+compiling ip.c...
+compiling inet_chksum.c...
+compiling init.c...
+compiling mem.c...
+compiling raw.c...
+compiling stats.c...
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling timeouts.c...
+compiling sys.c...
+compiling autoip.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling udp.c...
+compiling tcp_out.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling etharp.c...
+compiling ip4_addr.c...
+compiling ip4.c...
+compiling dhcp.c...
+compiling altcp_proxyconnect.c...
+compiling ip4_frag.c...
+compiling ethernet.c...
+assembling startup_MDR1986VE1T.s...
+compiling http_client.c...
+compiling httpd.c...
+compiling ethernetif.c...
+.\Application\eeprom_new.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(229): warning:  #767-D: conversion from pointer to smaller integer
+  	if ((uint16_t)src > (MDR_ETHERNET1->ETH_Dilimiter - 1))
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(258): warning:  #767-D: conversion from pointer to smaller integer
+  	if ((uint16_t)src > (MDR_ETHERNET1->ETH_Dilimiter - 1))
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(261): warning:  #767-D: conversion from pointer to smaller integer
+  	MDR_ETHERNET1->ETH_R_Head = (uint16_t)src;
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(203): warning:  #550-D: variable "space_start"  was set but never used
+  	uint16_t space_start = 0, space_end = 0, tail, head;
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(205): warning:  #550-D: variable "buf"  was set but never used
+  	uint32_t size, i, buf;
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(297): warning:  #767-D: conversion from pointer to smaller integer
+  	if ((uint16_t)dst > (MDR_ETHERNET1_BUF_SIZE-4))
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(320): warning:  #767-D: conversion from pointer to smaller integer
+  	if ((uint16_t)dst > (MDR_ETHERNET1_BUF_SIZE-4))
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(327): warning:  #767-D: conversion from pointer to smaller integer
+  	if ((uint16_t)dst > (MDR_ETHERNET1_BUF_SIZE-4))
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(330): warning:  #767-D: conversion from pointer to smaller integer
+  	MDR_ETHERNET1->ETH_X_Tail = (uint16_t)dst;
+2.1.2\ports\1986BE1\Standalone\ethernetif.c(522): warning:  #1-D: last line of file ends without a newline
+  }
+compiling system_MDR1986VE1T.c...
+compiling MDR32F9Qx_dma.c...
+compiling MDR32F9Qx_ssp.c...
+compiling MDR32F9Qx_eth.c...
+compiling fs.c...
+linking...
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching fs.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp_in.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching dhcp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp_out.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching pbuf.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching etharp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ip4_frag.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_eth_1.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching udp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching httpd.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_rst_clk.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ip4.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_timer.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ethernetif.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching netif.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mem.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching icmp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_dma.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ip4_addr.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching eeprom_new.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching inet_chksum.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching timeouts.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching netconf.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_uart.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching xtick.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching def.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching pps.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching aeabi_sdiv.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_port.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ethernet.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching lc_ctype_c.o(locale$$data).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching __printf_wp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_mdr1986ve1t_1.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching memp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching biled.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_intcommon.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _strtoul.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching strncmp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memmove.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching strcmp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memcpy.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp.o(.conststring).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching strtol.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching memp.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_mdr1986ve1t_1.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_dec.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching memp.o(.conststring).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching memcmp.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching fs.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_hex_int.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_str.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_iwdg.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_pad.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr1986ve1t_it.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching strlen.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching httpd.o(.conststring).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memcpy.o(.emb_text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char_common.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching timeouts.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching lc_ctype_c.o(locale$$code).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching httpd.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_hex_int.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_char_file.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtudiv10.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _chval.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching eeprom_new.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching tcp_in.o(i.__ARM_common_switch8).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching __2printf.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching atoi.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching retarget.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching uread4.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching strchr.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_ctype_table.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching uwrite4.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching __printf_wp.o(i._is_digit).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching mdr32f9qx_eeprom.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ethernet.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching libinit2.o(.ARM.Collect$$libinit$$00000012).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching _printf_s.o(.ARM.Collect$$_printf_percent$$00000014).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching ip4_addr.o(.constdata).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_locale_intlibspace.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_errno_addr_intlibspace.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+.\Obj\MyProject.axf: Error: L6406E: No space in execution regions with .ANY selector matching libshutdown.o(.ARM.Collect$$libshutdown$$00000000).
+.\Obj\MyProject.axf: Error: L6407E: Sections of aggregate size 0x170ff0 bytes could not fit into .ANY selector(s).
+Finished: 0 information, 0 warning and 98 error messages.
+".\Obj\MyProject.axf" - 98 Error(s), 36 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Milandr
+                https://github.com/in4lio/mdr1986x-pack-repo/raw/master/Milandr.MDR1986BExx.1.4.2.pack
+                Milandr.MDR1986BExx.1.4.2
+                Milandr MDR1986BExx Series Device Support, Drivers and Examples
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDR1986BExx.1.5.pack
+                Keil.MDR1986BExx.1.5
+                Milandr MDR1986BExx Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.0
+   * Component: DMA Version: 1.3.0
+   * Component: Ethernet Version: 1.3.0
+   * Component: SSP Version: 1.3.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MDR1986BE1T
+  .\RTE\_MyProject
+  C:\Users\Alex\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Config
+  C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\CMSIS\CM1\CoreSupport
+  C:\Users\Alex\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.5\Libraries\MDR32F9Qx_StdPeriph_Driver\inc
+  C:\Users\Alex\AppData\Local\Arm\Packs\Milandr\MDR1986BExx\1.4.2\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:1.3.0
+      Source file:   Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\startup_MDR1986VE1T.s
+      Source file:   Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.c
+      Include file:  Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+      Include file:  Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
+      Include file:  Config\MDR32F9Qx_config.h
+
+   * Component: Keil::Drivers:DMA:1.3.0
+      Source file:   Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_dma.c
+      Include file:  Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h
+
+   * Component: Keil::Drivers:Ethernet:1.3.0
+      Include file:  Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eth.h
+      Source file:   Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c
+
+   * Component: Keil::Drivers:SSP:1.3.0
+      Source file:   Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_ssp.c
+      Include file:  Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_ssp.h
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

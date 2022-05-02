@@ -1,0 +1,16 @@
+.\obj\xtick.o: Application\XTick.c
+.\obj\xtick.o: Application\MDR32F9Qx_config.h
+.\obj\xtick.o: Application\MDR32F9Qx_board.h
+.\obj\xtick.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\xtick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\xtick.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\obj\xtick.o: .\Application\MDR32F9Qx_config.h
+.\obj\xtick.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+.\obj\xtick.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h
+.\obj\xtick.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h
+.\obj\xtick.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
+.\obj\xtick.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h
+.\obj\xtick.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h
+.\obj\xtick.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h
+.\obj\xtick.o: Application\XTick.h
+.\obj\xtick.o: Application\HW_Profile.h

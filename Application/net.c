@@ -1,0 +1,11 @@
+#include "stdio.h"
+#include "lwip/mem.h"
+#include "lwip/memp.h"
+#include "lwip/dhcp.h"
+#include "lwip/tcp.h"
+#include "lwip/udp.h"
+#include "netif/etharp.h"
+#include "netif/loopif.h"
+
+#include "ethernetif.h"
+#include "netconf.h"

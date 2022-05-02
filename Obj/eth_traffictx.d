@@ -1,0 +1,15 @@
+.\obj\eth_traffictx.o: Application\Eth_TrafficTX.c
+.\obj\eth_traffictx.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h
+.\obj\eth_traffictx.o: .\Application\MDR32F9Qx_config.h
+.\obj\eth_traffictx.o: .\Application\MDR32F9Qx_board.h
+.\obj\eth_traffictx.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\eth_traffictx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\eth_traffictx.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\obj\eth_traffictx.o: .\Application\MDR32F9Qx_config.h
+.\obj\eth_traffictx.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+.\obj\eth_traffictx.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h
+.\obj\eth_traffictx.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h
+.\obj\eth_traffictx.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
+.\obj\eth_traffictx.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h
+.\obj\eth_traffictx.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eeprom.h
+.\obj\eth_traffictx.o: Application\MDR32F9Qx_eth.h

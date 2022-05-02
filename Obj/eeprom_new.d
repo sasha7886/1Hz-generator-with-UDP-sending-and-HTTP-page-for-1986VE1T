@@ -1,0 +1,17 @@
+.\obj\eeprom_new.o: Application\eeprom_new.c
+.\obj\eeprom_new.o: Application\eeprom_new.h
+.\obj\eeprom_new.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\eeprom_new.o: Application\MDR32F9Qx_config.h
+.\obj\eeprom_new.o: Application\MDR32F9Qx_board.h
+.\obj\eeprom_new.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\eeprom_new.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\obj\eeprom_new.o: .\Application\MDR32F9Qx_config.h
+.\obj\eeprom_new.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+.\obj\eeprom_new.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h
+.\obj\eeprom_new.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h
+.\obj\eeprom_new.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
+.\obj\eeprom_new.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h
+.\obj\eeprom_new.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h
+.\obj\eeprom_new.o: .\Application\XTick.h
+.\obj\eeprom_new.o: .\Application\HW_Profile.h
+.\obj\eeprom_new.o: .\Application\BiLED.h

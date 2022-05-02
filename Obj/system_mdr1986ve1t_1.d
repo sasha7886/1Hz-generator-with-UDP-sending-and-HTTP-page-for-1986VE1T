@@ -1,0 +1,11 @@
+.\obj\system_mdr1986ve1t_1.o: RTE\Device\MDR1986BE1T\system_MDR1986VE1T.c
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\obj\system_mdr1986ve1t_1.o: .\Application\MDR32F9Qx_config.h
+.\obj\system_mdr1986ve1t_1.o: .\Application\MDR32F9Qx_board.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\system_mdr1986ve1t_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h
+.\obj\system_mdr1986ve1t_1.o: .\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
